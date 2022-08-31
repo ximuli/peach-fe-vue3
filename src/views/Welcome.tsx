@@ -5,6 +5,7 @@ import logo from './../assets/icons/mangosteen.svg'
 
 export const Welcome = defineComponent({
   setup: (props, context) => {
+    console.log('s', s)
     return () => (
       <div class={s.wrapper}>
         <header>
