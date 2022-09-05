@@ -1,11 +1,11 @@
+import { RouteRecordRaw } from 'vue-router'
 import { Welcome } from "../views/Welcome";
-
 import { First } from "../components/welcome/First";
 import { Forth } from "../components/welcome/Forth";
 import { Second } from "../components/welcome/Second";
 import { Third } from "../components/welcome/Third";
 
-export const routes: RouterRecordRaw[] = [
+export const routes: RouteRecordRaw[] = [
   { path: '/', redirect: 'welcome' },
   {
     path: '/welcome',
