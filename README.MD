@@ -23,3 +23,21 @@ https://github.com/kentcdodds/cloc#readme
 tokei
 
 https://github.com/XAMPPRocky/tokei
+
+# 手机页面调试工具
+
+vConsole
+
+https://github.com/Tencent/vConsole
+
+Eruda
+
+https://github.com/liriliri/eruda
+
+# 微信页面调试
+
+步骤
+1 用手机打开 http://debugxweb.qq.com/?inspector=true
+2 在 Chrome/Edge 远程设备列表里找到对应页面
+3 修改地址栏的网址
+4 开始调试
